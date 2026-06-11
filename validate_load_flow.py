@@ -1,3 +1,10 @@
+"""
+This code is designed to retrieve load flow results from PowerFactory and generate a .csv file containing
+the following parameters for each bus: bus_i, voltage magnitude, voltage angle, active power (P), and
+reactive power (Q). The exported file can then be used for further analysis, validation, or comparison with
+results obtained from other power system tools.
+"""
+
 import pandas as pd
 ####Power factory related initializations
 import math
