@@ -36,8 +36,6 @@ all_genwind = app.GetCalcRelevantObjects('ElmGenstat')
 for gen in all_genwind:
 
     aux = gen.GetAttribute('loc_name')
-    cub = gen.GetAttribute('bus1')
-
 
 
     #real output power
