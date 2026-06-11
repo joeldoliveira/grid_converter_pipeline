@@ -1,4 +1,4 @@
-# Grid Converter Pipeline
+# Grid Converter and Validation Pipeline
 
 A framework for modelling, converting, and analysing power systems with increasing penetration of converter-based renewable generation.
 
