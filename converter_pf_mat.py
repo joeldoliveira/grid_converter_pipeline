@@ -1,3 +1,9 @@
+"""
+This code is designed to extract network data from PowerFactory and organize it into three matrices: Bus
+Data, Gen Data, and Branch Data. The resulting data is then exported to a MATLAB file compatible with the
+MATPOWER library, enabling power flow calculations and further power system analysis.
+"""
+
 ####Power factory related initializations
 import math
 import sys
