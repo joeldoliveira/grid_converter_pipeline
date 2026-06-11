@@ -1,3 +1,11 @@
+%{
+This code is designed to perform a load flow calculation using the MATPOWER library and generate a .csv
+file containing the following variables for each bus: bus_i, voltage magnitude, voltage angle, active power
+(P), and reactive power (Q). 
+The exported results can be used for further analysis, validation, or comparison
+with load flow results obtained from other power system simulation tools.
+%}
+
 clc
 clear
 
