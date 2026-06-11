@@ -310,7 +310,7 @@ for tr in all_tr:
 #print(branch_data)
 
 
-## para escrever paar um ficheiro em Matlab
+## para escrever para um ficheiro em Matlab
 matlab_file = "case_bus_joel.m"
 
 with open (matlab_file, "w", encoding="utf-8") as f:
