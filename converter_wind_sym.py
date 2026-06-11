@@ -1,3 +1,9 @@
+"""
+This code is designed to extract the data from an ElmGenStat object in PowerFactory and store its parameters. It
+then creates a corresponding ElmSym object, assigns the same parameter values to the new element,
+and finally removes the original ElmGenStat object from the network model.
+"""
+
 import pandas as pd
 ####Power factory related initializations
 import math
