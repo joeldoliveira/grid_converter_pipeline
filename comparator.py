@@ -1,3 +1,9 @@
+"""
+This code is designed to read two .csv files and compare their load flow results in terms of voltage
+magnitude, voltage angle, active power (P), and reactive power (Q). It generates comparison plots for each
+parameter, allowing the user to visualize and evaluate the differences between the two datasets.
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
