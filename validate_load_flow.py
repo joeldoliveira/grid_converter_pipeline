@@ -13,7 +13,8 @@ import csv
 
 import numpy as np
 
-sys.path.append(r"C:\Program Files\DIgSILENT\PowerFactory 2025 SP3\Python\3.9")
+# Add the path to the PowerFactory Python folder (the folder containing powerfactory.pyd)
+sys.path.append(r"C:\path\to\your\folder")
 import powerfactory
 
 try:
